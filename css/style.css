@@ -172,7 +172,7 @@ li a {
 }
 
 .cor7 {
-    color: #d51f83;
+  color: #d51f83;
   /* color: linear-gradient(
     rgba(102, 79, 198, 1),
     rgba(232, 75, 89, 1),
@@ -189,4 +189,45 @@ li a {
 .font-h {
   font-family: "Oswald", sans-serif;
   font-size: 30px;
+}
+
+/* PROJETOS */
+.d-block {
+  display: block;
+  padding: 20px 0 0px 350px;
+}
+
+.txt {
+  color: #51565e;
+  padding: 20px 20px 0 20px;
+  font-family: "Oswald", sans-serif;;
+}
+
+.box-projetos {
+  width: 1100px;
+  height: 450px;
+  display: flex;
+  /* border: 2px solid #51565e; */
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.text-center {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-projetos {
+  width: 300px;
+  align-items: center;
+  border: 2px solid #51565e;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.fontS40 {
+  font-size: 40px;
+  padding-left: 35%;
+  margin-bottom: 80px;
 }
