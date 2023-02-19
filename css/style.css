@@ -79,6 +79,10 @@ li a {
   width: 100%;
 }
 
+.flex li a:hover {
+  color: #0c1215;
+}
+
 /* section 1 */
 .section1 {
   display: flex;
@@ -230,4 +234,10 @@ li a {
   font-size: 40px;
   padding-left: 35%;
   margin-bottom: 80px;
+}
+
+/* contato */
+.bg-gray {
+  background-color: #0c1215;
+  margin: 0;
 }
