@@ -1,7 +1,9 @@
 // efeito digitação
 
 const typing = document.querySelector('[data-js="typing"]');
-const message = ["Olá, eu sou Cristhian Sander Schröer, Desenvolvedor front-end."];
+const message = [
+  "Olá, eu sou Cristhian Sander Schröer, Desenvolvedor front-end.",
+];
 
 let messageIndex = 0;
 let characterIndex = 0;
@@ -10,7 +12,8 @@ let currentCharacters = "";
 
 const type = () => {
   if (messageIndex === message.length) {
-    messageIndex = 0;
+    // messageIndex = 0;
+    return;
   }
 
   currentMessage = message[messageIndex];
