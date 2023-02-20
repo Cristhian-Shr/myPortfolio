@@ -147,7 +147,7 @@ li a {
 }
 
 .footer img {
-  width: 200px;
+  width: 180px;
 }
 
 /* icons color */
@@ -233,7 +233,7 @@ li a {
 .fontS40 {
   font-size: 40px;
   padding-left: 35%;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 /* contato */
