@@ -108,8 +108,8 @@ li a {
   width: 450px;
 }
 
-.content h1 {
-  padding: 20px 0;
+.h1-padding {
+  padding-bottom: 25px;
 }
 
 /* conteudo 2 */
@@ -252,12 +252,12 @@ li a {
 .cursor::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: 10px;
   right: -10px;
   background-color: #51565e;
   vertical-align: top;
   width: 5px;
-  height: 24px;
+  height: 30px;
   -webkit-animation: blink 1s step-end infinite;
   animation: blink 1s step-end infinite;
 }
